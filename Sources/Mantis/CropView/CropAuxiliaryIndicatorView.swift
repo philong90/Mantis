@@ -20,7 +20,7 @@ class CropAuxiliaryIndicatorView: UIView, CropAuxiliaryIndicatorViewProtocol {
     private var hintLine = UIView()
     private var tappedEdge: CropViewAuxiliaryIndicatorHandleType = .none
     private var gridMainColor = UIColor.white
-    private var gridSecondaryColor = UIColor.lightGray
+    private var gridSecondaryColor = UIColor.clear
     private var disableCropBoxDeformation = false
     
     var cropBoxHotAreaUnit: CGFloat = 42
